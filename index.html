@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandhan Sadan | Our Dream Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <h1 class="logo">Mandhan Sadan 🏡</h1>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#rooms">Rooms</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Our Dream Home</h2>
+            <p>A place filled with love, peace, and beautiful memories</p>
+            <a href="#gallery" class="btn">Explore Home</a>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <h2>About Our Home</h2>
+        <p>Welcome to Mandhan Sadan, our happy place where we live together with love and joy. Located in the peaceful village of Kordiha.</p>
+    </section>
+
+    <section id="rooms" class="container gray-bg">
+        <h2>Our Rooms</h2>
+        <div class="room-grid">
+            <div class="room-card">
+                <span class="icon">🛌</span>
+                <h3>Living Room</h3>
+            </div>
+            <div class="room-card">
+                <span class="icon">🍳</span>
+                <h3>Kitchen</h3>
+            </div>
+            <div class="room-card">
+                <span class="icon">🛀</span>
+                <h3>Bedroom</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="container">
+        <h2>Home Gallery</h2>
+        <div class="gallery-grid">
+            <img src="home.jpeg" alt="Front View">
+            <img src="home2.jpeg" alt="Living Room">
+            <img src="h3.jpeg" alt="Bedroom">
+        </div>
+    </section>
+
+    <section id="contact" class="container gray-bg">
+        <h2>Leave a Message</h2>
+        <div class="contact-form">
+            <input type="text" id="userName" placeholder="Your Name">
+            <textarea id="userMsg" placeholder="Your Message"></textarea>
+            <button class="btn-send" onclick="showMessage()">Send Message</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Mandhan Sadan | Made with ❤️</p>
+    </footer>
+
+    <button id="topBtn" title="Go to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
